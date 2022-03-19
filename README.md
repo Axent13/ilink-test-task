@@ -5,7 +5,7 @@ Test task for iLink internship
 
 The project is available on Githib Pages via link:
 
-https://axent13.github.io/ilink-test-task/
+https://axent13.github.io/ilink-test-task/public/
 
 ## DEV
 
