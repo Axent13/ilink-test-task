@@ -1,0 +1,14 @@
+.header {
+  max-width: 90rem;
+  min-height: 7.25rem;
+  display: flex;
+  padding: 2rem 5rem;
+  border: 1px solid red;
+}
+
+.header__user-avatar {
+  height: 3.25rem;
+  width: 3.25rem;
+  border: 1px solid #E0E0E0;
+  background: url('../../assets/no-avatar.png') center no-repeat;
+}
