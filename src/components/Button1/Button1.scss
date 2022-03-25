@@ -1,0 +1,49 @@
+.button1 {
+  position: relative;
+  min-height: 3.25rem;
+  min-width: 3.25rem;
+  border-radius: 0.125rem;
+  border: none;
+  padding: 1.063rem 1.75rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #333;
+  background-color: #fff;
+  cursor: pointer;
+
+  &::after {
+    display: none;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 73.39%;
+    height: 100%;
+    background-color: #585CC6;
+    opacity: 0.1;
+    border-radius: inherit;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  &:hover::after {
+    display: block;
+  }
+
+  &:active {
+    background-color: #C2C4FF;
+  }
+
+  &:active::after {
+    display: none;
+  }
+
+  &:disabled {
+    background-color: #E0E0E0;
+    cursor: not-allowed;
+  }
+
+  &:disabled::after {
+    display: none;
+  }
+}
