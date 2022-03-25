@@ -1,0 +1,26 @@
+.footer {
+  max-width: 90rem;
+  min-height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem 5rem;
+  
+  &__copyright {
+    font-size: 1rem;
+  }
+
+  &__social-icons {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 6.5rem;
+  }
+
+  &__icon {
+    transition: opacity ease 500ms;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}

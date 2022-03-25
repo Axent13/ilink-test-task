@@ -1,4 +1,4 @@
-import './Footer.css';
+import './Footer.scss';
 import vkIcon from '../../assets/vk-icon.png';
 import redditIcon from '../../assets/reddit-icon.png';
 import telegramIcon from '../../assets/telegram-icon.png';

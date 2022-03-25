@@ -1,4 +1,4 @@
-import './Header.css';
+import './Header.scss';
 import '../../assets/no-avatar.png';
 import ilinkLogo from '../../assets/ilink-logo.png';
 
