@@ -1,0 +1,67 @@
+.button2Icon {
+  position: relative;
+  min-height: 3.25rem;
+  min-width: 3.25rem;
+  border-radius: 0.125rem;
+  border: none;
+  padding: 1.063rem 1.75rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #585CC6;
+  cursor: pointer;
+
+  &::after {
+    display: none;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 55.12%;
+    height: 100%;
+    background-color: #696DC8;
+    border-radius: inherit;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    z-index: 1;
+  }
+
+  &:hover::after {
+    display: block;
+  }
+
+  &:active {
+    background-color: #797DDF;
+  }
+
+  &:active::after {
+    display: none;
+  }
+
+  &:disabled {
+    background-color: #8A8A8A;
+    cursor: not-allowed;
+  }
+
+  &:disabled::after {
+    display: none;
+  }
+
+  &__content-wrapper {
+    display: flex;
+  }
+
+  &__icon {
+    width: 1.125rem;
+    height: 1.125rem;
+    background: url('../../assets/cross-icon.png') center no-repeat;
+    margin-right: 0.625rem;
+    position: relative;
+    z-index: 2;
+  }
+
+  &__text {
+    position: relative;
+    z-index: 2;
+  }
+}
