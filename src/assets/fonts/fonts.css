@@ -1,0 +1,71 @@
+font-face {
+  font-family: 'Gilroy';
+  src: url('Gilroy-Regular.eot');
+  src: local('Gilroy Regular'), local('Gilroy-Regular'),
+      url('Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+      url('Gilroy-Regular.woff2') format('woff2'),
+      url('Gilroy-Regular.woff') format('woff'),
+      url('Gilroy-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('Gilroy-Medium.eot');
+  src: local('Gilroy Medium'), local('Gilroy-Medium'),
+      url('Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+      url('Gilroy-Medium.woff2') format('woff2'),
+      url('Gilroy-Medium.woff') format('woff'),
+      url('Gilroy-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('Gilroy-Semibold.eot');
+  src: local('Gilroy Semibold'), local('Gilroy-Semibold'),
+      url('Gilroy-Semibold.eot?#iefix') format('embedded-opentype'),
+      url('Gilroy-Semibold.woff2') format('woff2'),
+      url('Gilroy-Semibold.woff') format('woff'),
+      url('Gilroy-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('Gilroy-Bold.eot');
+  src: local('Gilroy Bold'), local('Gilroy-Bold'),
+      url('Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+      url('Gilroy-Bold.woff2') format('woff2'),
+      url('Gilroy-Bold.woff') format('woff'),
+      url('Gilroy-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Factor A';
+  src: url('FactorA-Regular.eot');
+  src: local('Factor A Regular'), local('FactorA-Regular'),
+      url('FactorA-Regular.eot?#iefix') format('embedded-opentype'),
+      url('FactorA-Regular.woff2') format('woff2'),
+      url('FactorA-Regular.woff') format('woff'),
+      url('FactorA-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Factor A';
+  src: url('FactorAMedium-Regular.eot');
+  src: local('Factor A Medium Regular'), local('FactorAMedium-Regular'),
+      url('FactorAMedium-Regular.eot?#iefix') format('embedded-opentype'),
+      url('FactorAMedium-Regular.woff2') format('woff2'),
+      url('FactorAMedium-Regular.woff') format('woff'),
+      url('FactorAMedium-Regular.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}

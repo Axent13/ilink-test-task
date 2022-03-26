@@ -1,5 +1,5 @@
 import './FeedbackCard.scss';
-import '../../assets/no-avatar.png';
+import '../../assets/images/no-avatar.png';
 
 function FeedbackCard() {
   return (

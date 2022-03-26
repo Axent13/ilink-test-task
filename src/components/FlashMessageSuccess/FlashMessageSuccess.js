@@ -1,8 +1,8 @@
 import './FlashMessageSuccess.scss';
-import '../../assets/flash-message-success.png';
-import '../../assets/flash-message-cross-icon-white.png';
-import '../../assets/flash-message-cross-icon-black.png';
-import '../../assets/flash-message-success-mobile.png';
+import '../../assets/images/flash-message-success.png';
+import '../../assets/images/flash-message-cross-icon-white.png';
+import '../../assets/images/flash-message-cross-icon-black.png';
+import '../../assets/images/flash-message-success-mobile.png';
 
 function FlashMessageSuccess() {
   return (

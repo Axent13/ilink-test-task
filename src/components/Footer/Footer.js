@@ -1,7 +1,7 @@
 import './Footer.scss';
-import vkIcon from '../../assets/vk-icon.png';
-import redditIcon from '../../assets/reddit-icon.png';
-import telegramIcon from '../../assets/telegram-icon.png';
+import vkIcon from '../../assets/images/vk-icon.png';
+import redditIcon from '../../assets/images/reddit-icon.png';
+import telegramIcon from '../../assets/images/telegram-icon.png';
 
 function Footer() {
   return (

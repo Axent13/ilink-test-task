@@ -1,6 +1,6 @@
 import './Header.scss';
-import '../../assets/no-avatar.png';
-import ilinkLogo from '../../assets/ilink-logo.png';
+import '../../assets/images/no-avatar.png';
+import ilinkLogo from '../../assets/images/ilink-logo.png';
 
 function Header() {
   return (

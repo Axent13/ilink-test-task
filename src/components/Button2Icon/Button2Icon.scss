@@ -7,6 +7,7 @@
   padding: 1.063rem 1.75rem;
   font-size: 1.125rem;
   font-weight: 600;
+  font-family: Gilroy, Arial, sans-serif;
   color: #fff;
   background-color: #585CC6;
   cursor: pointer;
@@ -54,7 +55,7 @@
   &__icon {
     width: 1.125rem;
     height: 1.125rem;
-    background: url('../../assets/cross-icon.png') center no-repeat;
+    background: url('../../assets/images/cross-icon.png') center no-repeat;
     margin-right: 0.625rem;
     position: relative;
     z-index: 2;

@@ -1,5 +1,5 @@
 import './Button2Icon.scss';
-import '../../assets/cross-icon.png';
+import '../../assets/images/cross-icon.png';
 
 function Button2Icon() {
   return (
