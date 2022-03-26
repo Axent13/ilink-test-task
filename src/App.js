@@ -5,10 +5,12 @@ import Button2 from './components/Button2/Button2';
 import Button2Icon from './components/Button2Icon/Button2Icon';
 import FeedbackCard from './components/FeedbackCard/FeedbackCard';
 import FlashMessageError from './components/FlashMessageError/FlashMessageError';
+import FlashMessageSuccess from './components/FlashMessageSuccess/FlashMessageSuccess';
 
 function App() {
   return (
     <div className="App">
+      <FlashMessageSuccess/>
       <FlashMessageError/>
       <FeedbackCard/>
       <Header/>
