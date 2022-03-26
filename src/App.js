@@ -6,10 +6,12 @@ import Button2Icon from './components/Button2Icon/Button2Icon';
 import FeedbackCard from './components/FeedbackCard/FeedbackCard';
 import FlashMessageError from './components/FlashMessageError/FlashMessageError';
 import FlashMessageSuccess from './components/FlashMessageSuccess/FlashMessageSuccess';
+import Arrow from './components/Arrow/Arrow';
 
 function App() {
   return (
     <div className="App">
+      <Arrow/>
       <FlashMessageSuccess/>
       <FlashMessageError/>
       <FeedbackCard/>
