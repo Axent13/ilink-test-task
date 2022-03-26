@@ -1,17 +1,17 @@
 .arrow {
   width: 3.5rem;
   height: 3.5rem;
-  background: url('../../assets/arrow.png') no-repeat center/cover, #fff;
+  background: url('../../assets/arrow.png') no-repeat center, #fff;
   border: none;
   border-radius: 0.125rem;
   cursor: pointer;
 
   &:hover {
-    background: url('../../assets/arrow-hovered.png') no-repeat center/cover, #fff;
+    background: url('../../assets/arrow-hovered.png') no-repeat center, #fff;
   }
 
   &:disabled {
-    background: url('../../assets/arrow-disabled.png') no-repeat center/cover, #E0E0E0;
+    background: url('../../assets/arrow-disabled.png') no-repeat center, #E0E0E0;
   }
 
   &_left {
